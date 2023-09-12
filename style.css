@@ -1,0 +1,12 @@
+canvas {
+    border-radius: 5px;
+    animation-name: canvas;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 80px;
+}
+
+@keyframes canvas {
+    from{box-shadow: 1px 1px 38px rgb(61, 201, 5);}
+    to{box-shadow: 1px 1px 38px rgb(239, 170, 79);}
+}
